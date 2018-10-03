@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:background="#00f"
             android:text="Justin Vuu"
-            android:textSize="24sp"
+            android:textSize="30sp"
             android:textColor="#ff0"
             android:gravity="center"/>
         <LinearLayout
@@ -26,15 +26,16 @@
                 android:id="@+id/leftList"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight=".50"
+                android:layout_weight="1"
                 android:background="#ff0">
             </ListView>
-            <ListView
+            <GridView
                 android:id="@+id/rightList"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight=".40"
-                android:background="#f00"></ListView>
+                android:layout_weight="1"
+                android:numColumns="3"
+                android:background="#f00"></GridView>
         </LinearLayout>
     </LinearLayout>
 

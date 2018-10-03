@@ -1,4 +1,4 @@
-package com.example.d8.maplab4;
+package com.example.d8.maplab5;
 
 import org.junit.Test;
 

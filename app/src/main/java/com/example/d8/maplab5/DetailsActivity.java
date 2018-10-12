@@ -16,6 +16,6 @@ public class DetailsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_details);
 
         detailsName = (TextView) findViewById(R.id.detailsName);
-        detailsName.setText();
+        detailsName.setText("");
     }
 }

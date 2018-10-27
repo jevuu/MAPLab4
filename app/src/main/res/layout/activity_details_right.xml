@@ -10,13 +10,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#0F0">
+        android:background="#FF0">
+        <TextView
+            android:id="@+id/detailsName"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textSize="48sp" />
         <ImageView
             android:id="@+id/detailsImage"
             android:layout_width="200sp"
             android:layout_height="200sp" />
         <TextView
-            android:id="@+id/detailsName"
+            android:id="@+id/detailsAlpha"
             android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:textSize="48sp" />

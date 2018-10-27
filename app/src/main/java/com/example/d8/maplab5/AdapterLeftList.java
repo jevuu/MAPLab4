@@ -14,13 +14,13 @@ import android.widget.TextView;
 public class AdapterLeftList extends ArrayAdapter<String> {
     private Activity context;
     private String[] text;
-    private Integer[] imgID;
+    private int[] imgID;
 
     private TextView text1;
     private ImageView img1;
 
 
-    public AdapterLeftList(@NonNull Activity context, String[] text, Integer[] imgID) {
+    public AdapterLeftList(@NonNull Activity context, String[] text, int[] imgID) {
         super(context, R.layout.textview_left_list, text);
         this.context = context;
         this.text = text;

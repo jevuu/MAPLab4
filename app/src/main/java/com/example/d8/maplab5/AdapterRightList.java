@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class AdapterRightList extends ArrayAdapter<String> {
     private Activity context;
     private String[] text;
-    private Integer[] imgID;
+    private int[] imgID;
     private String[] alpha;
 
     private TextView text1;
@@ -20,7 +20,7 @@ public class AdapterRightList extends ArrayAdapter<String> {
     private TextView text2;
 
 
-    public AdapterRightList(@NonNull Activity context, String[] text, Integer[] imgID, String[] alpha) {
+    public AdapterRightList(@NonNull Activity context, String[] text, int[] imgID, String[] alpha) {
         super(context, R.layout.textview_right_list, text);
         this.context = context;
         this.text = text;
